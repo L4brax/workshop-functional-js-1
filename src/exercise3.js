@@ -10,7 +10,7 @@ const reverseStringTest = (input) => {
   }
 };
 
-// Je ne comprends pas pourquoi j'ai 0 dans mes test en actual...
+// Je ne comprends pas pourquoi j'ai 0 dans mes tests en actual...
 const reverseString = (input, acc) => {
   let final = '' | acc;
   if (input.length === 0) {
