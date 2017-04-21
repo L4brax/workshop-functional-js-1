@@ -9,9 +9,9 @@ const reverseYolo = input => {
     .map(serie => _.orderBy(serie).reverse())
     .flatten()
     .value();
-}
+};
 
 module.exports = {
   reverseYolo: reverseYolo,
   run: reverseYolo
-}
+};
